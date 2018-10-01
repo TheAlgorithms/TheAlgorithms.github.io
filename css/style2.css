@@ -50,3 +50,17 @@ hr {border-bottom: 3px solid #0068FF;}
 footer .inline-list li {margin-right: 40px;}
 footer a {border: none; color: #0068FF;}
 footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+
+/* Contents */
+main{
+  padding: 1em;
+  margin-top: 1em;
+}
+main::after {
+  content: '\2A55\2A55\2A55\2A55';
+  position: relative;
+  top: 40px;
+  left: 300px;
+  color: #0068FF;
+  font-size: 44px;
+}
