@@ -19,7 +19,7 @@ a {text-decoration: none; color: #333; border-bottom: 3px solid #0068FF;}
 a:hover {color: #0068FF}
 p {font-weight: 200; font-size: 20px;}
 
-.name {font-family: Montserrat; font-size: 45px; text-transform: uppercase; font-weight: 900; padding: 12px; border: 4px solid #0068FF; color: #0068FF; display: inline-block; position: absolute; margin-bottom: 60px; top: 60px; left: 90px;}
+.name {font-family: Montserrat; font-size: 45px; text-transform: uppercase; font-weight: 900; padding: 12px; border: 4px solid #0068FF; color: #0068FF; display: inline-block; position: relative; margin-bottom: 60px; top: 0  ; left: 90px;}
 
 .container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
 article {padding: 60px;}
@@ -41,7 +41,7 @@ article::after {
 }
 hr {border-bottom: 3px solid #0068FF;}
 
-.meta {text-transform: uppercase; font-family: Arial, Courier New, Source Sans Pro, sans-serif; font-size: 10px; letter-spacing: .15em;}
+.meta {text-transform: capitalize; font-family: Arial, Courier New, Source Sans Pro, sans-serif; font-size: 10px; letter-spacing: .15em;}
 .meta a:hover {color: #333;}
 
 .inline-list {list-style: none; margin: 0; padding: 0;}
