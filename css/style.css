@@ -28,7 +28,8 @@ a:not(.github):hover {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .name {
@@ -65,4 +66,24 @@ main::after {
   left: 300px;
   color: #445978;
   font-size: 44px;
+}
+
+table {
+  border: 1px solid #445978;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+table a  {
+  font-weight: bold;
+}
+
+tr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+table img {
+  margin-right: 10px;
 }
