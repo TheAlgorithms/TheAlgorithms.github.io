@@ -28,7 +28,9 @@ a:not(.github):hover {
 }
 
 p {
-  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 23px;
   text-align: center;
 }
 
