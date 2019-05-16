@@ -54,10 +54,6 @@ p {
   color: #445978;
 }
 
-.container header a {
-
-}
-
 main {
   padding: 1em;
 }
@@ -70,22 +66,13 @@ main::after {
   font-size: 44px;
 }
 
-table {
-  border: 1px solid #445978;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
 
-}
-table a  {
-  font-weight: bold;
+div.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-tr {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-table img {
-  margin-right: 10px;
+div.grid-item {
+  margin-bottom: 10px;
 }
