@@ -28,7 +28,10 @@ a:not(.github):hover {
 }
 
 p {
-  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 23px;
+  text-align: center;
 }
 
 .name {
@@ -51,10 +54,6 @@ p {
   color: #445978;
 }
 
-.container header a {
-
-}
-
 main {
   padding: 1em;
 }
@@ -65,4 +64,16 @@ main::after {
   left: 300px;
   color: #445978;
   font-size: 44px;
+}
+
+
+div.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.grid-item {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
