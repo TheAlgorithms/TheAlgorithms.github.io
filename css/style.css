@@ -74,5 +74,6 @@ div.grid {
 }
 
 div.grid-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
