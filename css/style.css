@@ -23,10 +23,6 @@ a {
   padding-top: 5px;
 }
 
-a:not(.github):hover {
-  border-bottom: 3px solid #1b6568;
-}
-
 p {
   font-family: 'Roboto';
   font-weight: 300;
@@ -66,7 +62,6 @@ main::after {
   font-size: 44px;
 }
 
-
 div.grid {
   text-align: center;
   display: grid;
@@ -77,3 +72,9 @@ div.grid-item {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.language-name:hover{
+  border-bottom: 3px solid #1b6568;
+  transition-duration: 100ms;
+}
+
