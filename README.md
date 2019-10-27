@@ -14,7 +14,6 @@
   <li><a href="https://github.com/TheAlgorithms/Python" target="_blank">PYTHON</a></li>
   <li><a href="https://github.com/TheAlgorithms/Java" target="_blank">JAVA</a></li>
   <li><a href="https://github.com/TheAlgorithms/C" target="_blank">C</a></li>
-  <li><a href="" target="_blank">C++</a></li>
   <li><a href="https://github.com/TheAlgorithms/Javascript" target="_blank">JAVASCRIPT</a></li>
   <li><a href="https://github.com/TheAlgorithms/C-Sharp" target="_blank">C#</a></li>
   <li><a href="https://github.com/TheAlgorithms/Go" target="_blank">GO</a></li>
