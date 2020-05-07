@@ -5,13 +5,176 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/static/css/main.css">
 
     <title>Welcome to TheAlgorithms</title>
   </head>
   <body>
+    <div class="main-content-container">
+      <div class="title-container bg-info">
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#">TheAlgorithms</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alg">What is an algorithm?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#programmingLanguages">Programming Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contribute">Contribute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gitter">Gitter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Github">Github</a>
+              </li>
+            </ul>
+            <img src="/static/img/logo.png" alt="TheAlgorithms logo" width="80" height="80">
+          </div>
+        </nav>
+
+
+        <div class="vertical-center">
+          <div class="container text-white text-center">
+            <h1 class="display-3 righteous">Welcome to github's largest open-source algorithm library</h1>
+            <h2 class="py-3">TheAlgorithms</h2>
+
+            <div class="py-5">
+              <a href="#about"><img class="arrow" src="/static/img/arrow.png" alt="" width="60" heigh="60"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="bg-light">
+        <div class="container py-5">
+          <h1 class="display-3 righteous">About Us</h1>
+          <h1>
+            We are a group of programmers helping each other out to build new things, whether it be writing
+            complex encryption programs, or simple ciphers. Our goal is to work together to document and
+            model beautiful, helpful and interesting algorithms using code. We are an open-source community -
+            anyone can contribute. We check each other's work, communicate and work together to solve
+            problems. We strive to be welcoming, respectful, yet make sure that our code follows the latest
+            guidelines.
+          </h1>
+        </div>
+      </div>
+
+      <div id="alg" class="bg-info">
+        <div class="container py-5 text-white">
+          <h1 class="display-3 righteous">What is an algorithm?</h1>
+          <h1>
+            An algorithm is a set of rules that takes in one or more inputs, then performs inner calculations
+            and data manipulations and returns an output or a set of outputs. In short, algorithms make life
+            easy. From complex data manipulations and hashes, to simple arithmetic, algorithms follow
+            a set of steps to give a result. One example of an algorithm would be a simple function that takes
+            in two values, adds them together and returns the sum.
+          </h1>
+        </div>
+      </div>
+
+      <div id="programmingLanguages" class="bg-light">
+        <div class="container py-5">
+          <h1 class="display-3 righteous">Programming Languages</h1>
+          <h1>
+            We support many programming languages. Each language has its own github repository where all the
+            code for the algorithms is stored. Here is a list of the current programming languages:
+          </h1>
+          <h2 class="pt-3">
+            <ul>
+              <li><a href="https://github.com/TheAlgorithms/Python">Python</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Javascript">JavaScript</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Java">Java</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Dart">Dart</a></li>
+              <li><a href="https://github.com/TheAlgorithms/C">C</a></li>
+              <li><a href="https://github.com/TheAlgorithms/C-Plus-Plus">C++</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Go">Go (GoLang)</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Kotlin">Kotlin</a></li>
+              <li><a href="https://github.com/TheAlgorithms/C-Sharp">C#</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Rust">Rust</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Scala">Scala</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Jupyter">Jupyter Notebook</a></li>
+              <li><a href="https://github.com/TheAlgorithms/R">R</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Ruby">Ruby</a></li>
+              <li><a href="https://github.com/TheAlgorithms/MATLAB-Octave">MATLAB/Octave</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Haskell">Hackshell (empty)</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Elixir">Elixir</a></li>
+              <li><a href="https://github.com/TheAlgorithms/Elm">Elm</a></li>
+            </ul>
+          </h2>
+        </div>
+      </div>
+
+      <div id="Contribute" class="bg-info">
+        <div class="container py-5 text-white">
+          <h1 class="display-3 righteous">Contribute</h1>
+          <h1>
+            We love when people contribute to the repositories. If you have an algorithm
+            that you want to add, a change you want to address or a bug fix, please do
+            so. But before you do, <strong>make sure you have read the contributing
+            guidelines found in CONTRIBUTING.md in the repository.</strong> Make sure
+            that you are respectful, helpful and using the latest version of the language.
+            After reading the contribution guidelines, you can fork
+            the repository, work on changes and then submit a pull request.
+          </h1>
+        </div>
+      </div>
+
+      <div id="Gitter" class="bg-light">
+        <div class="container py-5">
+          <h1 class="display-3 righteous">Gitter</h1>
+          <h1>
+            We are found on <a href="https://gitter.im/TheAlgorithms">gitter</a>,
+            please join us. Here you can chat with contributors, ask questions and
+            more.
+          </h1>
+        </div>
+      </div>
+
+      <div id="Github" class="bg-info">
+        <div class="container py-5 text-white">
+          <h1 class="display-3 righteous">Github</h1>
+          <h1><a class="text-white" href="https://github.com/TheAlgorithms/"><u>TheAlgorithms
+            organization is found in github.</u></h1> Here you can find all the repositories
+            as well as see organization members and contact info.
+        </div>
+      </div>
+
+      <div class="bg-light">
+        <div class="container py-5 text-center">
+          <div class="row">
+            <div class="col-sm">
+              <h3><a href="#">Back to top</a></h3>
+            </div>
+            <div class="col-sm">
+              <h3><a href="https://github.com/TheAlgorithms/">Github</a></h3>
+            </div>
+            <div class="col-sm">
+              <h3><a href="https://gitter.im/TheAlgorithms">Gitter</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
