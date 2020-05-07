@@ -3,7 +3,44 @@ html {
 }
 
 body {
-  cursor: url('/static/img/rsz_default_cur.png'), auto;
+  overflow-x: hidden;
+}
+
+.navbar{
+  background-color: #3a4852!important;
+}
+
+hr{
+  width: 50%;
+  text-align: left;
+  margin-left: 0 ;
+}
+
+#about, #alg, #Contribute{
+  height:100vh;
+  padding-top:10%;
+}
+
+
+.footer{
+  background-color:#3a4852;
+  color: white;
+}
+
+div.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.grid-item {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.language-name:hover{
+  border-bottom: 3px solid #1b6568;
+  transition-duration: 100ms;
 }
 
 .title-container {
