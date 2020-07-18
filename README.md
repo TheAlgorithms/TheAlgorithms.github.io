@@ -16,6 +16,7 @@
   <li><a href="https://github.com/TheAlgorithms/C" target="_blank">C</a></li>
   <li><a href="https://github.com/TheAlgorithms/Javascript" target="_blank">JAVASCRIPT</a></li>
   <li><a href="https://github.com/TheAlgorithms/C-Sharp" target="_blank">C#</a></li>
+  <li><a href="https://github.com/TheAlgorithms/Rust" target="_blank">Rust</a></li>
   <li><a href="https://github.com/TheAlgorithms/Go" target="_blank">GO</a></li>
   <li><a href="https://github.com/TheAlgorithms/Ruby" target="_blank">RUBY</a></li>
   <li><a href="https://github.com/TheAlgorithms/R" target="_blank">R</a></li>
