@@ -1,0 +1,80 @@
+body {
+  font-family: Montserrat, Helvetica Neue, sans-serif;
+  line-height: 2em;
+  box-sizing: border-box;
+  color: #333333b3;
+  /* background: linear-gradient(to bottom right,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); */
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1b6568;
+  transition-duration: 100ms;
+}
+.github {
+  float: right;
+  fill: #445978;
+  padding-top: 5px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 23px;
+  text-align: center;
+}
+
+.name {
+  font-size: 32px;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding: 50px 0;
+}
+
+.container header {
+  padding: 12px;
+  line-height: normal;
+  text-align: center;
+  border: 4px solid #445978;
+  color: #445978;
+}
+
+main {
+  padding: 1em;
+}
+main::after {
+  content: '\2A55\2A55\2A55\2A55';
+  position: relative;
+  top: 40px;
+  left: 300px;
+  color: #445978;
+  font-size: 44px;
+}
+
+div.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.grid-item {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.language-name:hover{
+  border-bottom: 3px solid #1b6568;
+  transition-duration: 100ms;
+}
+
