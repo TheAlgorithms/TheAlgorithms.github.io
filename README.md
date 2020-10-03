@@ -1,1 +1,0 @@
-# https://TheAlgorithms.github.io
