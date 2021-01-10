@@ -6,24 +6,25 @@ body {
   overflow-x: hidden;
 }
 
-.navbar{
-  background-color: #3a4852!important;
+.navbar {
+  background-color: #3a4852 !important;
 }
 
-hr{
+hr {
   width: 50%;
   text-align: left;
-  margin-left: 0 ;
+  margin-left: 0;
 }
 
-#about, #alg, #Contribute{
-  height:100vh;
-  padding-top:10%;
+#about,
+#alg,
+#Contribute {
+  height: 100vh;
+  padding-top: 10%;
 }
 
-
-.footer{
-  background-color:#3a4852;
+.footer {
+  background-color: #3a4852;
   color: white;
 }
 
@@ -38,7 +39,7 @@ div.grid-item {
   margin-top: 10px;
 }
 
-.language-name:hover{
+.language-name:hover {
   border-bottom: 3px solid #1b6568;
   transition-duration: 100ms;
 }
@@ -49,7 +50,7 @@ div.grid-item {
 }
 
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
   display: flex;
@@ -61,14 +62,20 @@ div.grid-item {
 }
 
 .arrow {
-  cursor: url('/static/img/rsz_default_cur.png'), auto;
+  cursor: url("/static/img/rsz_default_cur.png"), auto;
 }
 
-.arrow:hover{
+.arrow:hover {
   position: relative;
   top: +10px;
 }
 
 .righteous {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
+}
+
+@media screen and (max-width: 1000px) {
+  .responsive {
+    font-size: 10vmin;
+  }
 }
