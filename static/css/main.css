@@ -32,6 +32,7 @@ div.grid {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-x: scroll;
 }
 
 div.grid-item {
